@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "확장 프로그램 이름."
+  },
+  "extDescription": {
+    "message": "오래 쓰지 않은 탭을 닫고, 같은 사이트 탭을 그룹으로 묶으며, 닫은 URL을 이 컴퓨터에 기억합니다.",
+    "description": "확장 프로그램 설명."
+  },
+  "openSummary": {
+    "message": "열린 탭 $COUNT$개 · $IDLE$개 정리 가능",
+    "description": "정리 가능한 탭이 있을 때 요약.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "열린 탭 $COUNT$개 · 정리할 탭 없음",
+    "description": "정리할 탭이 없을 때 요약.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "이 창 정리하기", "description": "현재 창을 그룹화하는 버튼." },
+  "closeIdle": { "message": "미사용 탭 정리", "description": "유휴 탭을 닫는 버튼." },
+  "memory": { "message": "기억함", "description": "저장된 URL 섹션 제목." },
+  "searchPlaceholder": { "message": "제목 또는 URL 검색", "description": "검색창 플레이스홀더." },
+  "restore": { "message": "다시 열기", "description": "저장된 URL을 여는 버튼." },
+  "forget": { "message": "삭제", "description": "저장된 URL을 삭제하는 버튼." },
+  "emptyMemory": { "message": "닫은 페이지는 이 컴퓨터에만 안전하게 보관됩니다.", "description": "기억함이 비어 있을 때." },
+  "noMatches": { "message": "일치하는 저장 페이지가 없습니다.", "description": "검색 결과 없음." },
+  "autoClose": { "message": "미사용 탭 자동으로 닫기", "description": "설정 항목." },
+  "autoSort": { "message": "관련 탭 자동으로 정렬하기", "description": "설정 항목." },
+  "sectionClose": { "message": "자동 닫기", "description": "설정 섹션." },
+  "sectionSort": { "message": "정렬", "description": "설정 섹션." },
+  "sectionMemory": { "message": "기억함", "description": "설정 섹션." },
+  "inactiveHours": { "message": "미사용 기준 시간 (시간)", "description": "설정 항목." },
+  "inactiveHoursHint": {
+    "message": "탭을 마지막으로 열어본 시점부터 계산합니다. 설치할 때 이미 열려 있던 탭은 설치 시점부터 계산하므로 갑자기 닫히지 않습니다.",
+    "description": "유휴 타이머 설명."
+  },
+  "minOpenTabs": { "message": "항상 남겨둘 최소 탭 수", "description": "설정 항목." },
+  "maxClosePerSweep": { "message": "한 번에 닫을 최대 탭 수", "description": "설정 항목." },
+  "groupByDomain": { "message": "동일 서비스의 운영 호스트와 test·testsite 호스트를 한 그룹으로 묶기", "description": "설정 항목." },
+  "archiveEnabled": { "message": "닫은 URL 기억하기", "description": "설정 항목." },
+  "archiveLimit": { "message": "최대 보관 개수", "description": "설정 항목." },
+  "whitelist": { "message": "자동으로 닫지 않을 사이트", "description": "설정 항목." },
+  "whitelistHint": {
+    "message": "한 줄에 도메인 하나씩 입력하세요. example.com은 하위 도메인까지 유지하며, docs.example.com은 해당 사이트만 유지합니다.",
+    "description": "화이트리스트 도움말."
+  },
+  "clearArchive": { "message": "기억함 비우기", "description": "저장된 모든 URL을 삭제하는 버튼." },
+  "clearConfirm": {
+    "message": "TabPerch가 기억한 모든 URL을 지울까요? Chrome 자체 방문 기록은 그대로 유지됩니다.",
+    "description": "비우기 전 확인."
+  },
+  "saved": { "message": "저장됨", "description": "저장 완료 상태." },
+  "saveFailed": { "message": "저장하지 못했습니다. 다시 시도해 주세요.", "description": "저장 실패 상태." },
+  "actionFailed": { "message": "작업을 완료하지 못했습니다. 다시 시도해 주세요.", "description": "작업 실패 상태." },
+  "keptOpen": {
+    "message": "나머지 미사용 탭 $REST$개는 우선 남겨둡니다. 자동 검사마다 최대 $MAX$개만 닫으며 최소 $MIN$개의 탭을 유지합니다.",
+    "description": "모든 유휴 탭을 한 번에 닫지 않는 이유.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "방금 탭 $COUNT$개를 자동 정리했습니다. 아래에서 다시 열 수 있습니다.",
+    "description": "자동 닫기 후 알림.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "방금 탭 1개를 자동 정리했습니다. 아래에서 다시 열 수 있습니다.",
+    "description": "탭 1개 자동 닫기 후 알림."
+  },
+  "lastSweep": {
+    "message": "마지막 확인 $WHEN$ · $COUNT$개 정리됨",
+    "description": "이전 검사 결과.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "방금", "description": "상대 시간." },
+  "minuteAgo": { "message": "1분 전", "description": "상대 시간." },
+  "minutesAgo": {
+    "message": "$COUNT$분 전",
+    "description": "상대 시간.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "1시간 전", "description": "상대 시간." },
+  "hoursAgo": {
+    "message": "$COUNT$시간 전",
+    "description": "상대 시간.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "1일 전", "description": "상대 시간." },
+  "daysAgo": {
+    "message": "$COUNT$일 전",
+    "description": "상대 시간.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "인터페이스 미리보기입니다. Chrome에 로드하면 실제 탭을 관리할 수 있습니다.",
+    "description": "Chrome 외부에서 열었을 때 배너."
+  },
+  "reasonAuto": { "message": "자동 정리", "description": "저장 이유." },
+  "reasonManual": { "message": "직접 닫음", "description": "저장 이유." },
+  "moreResults": {
+    "message": "외 $COUNT$개 더 있음. 검색어를 좁혀 보세요.",
+    "description": "목록이 잘렸을 때 안내.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "이 창을 사이트별로 그룹화했습니다.", "description": "정렬 후 알림." },
+  "closedFlash": {
+    "message": "탭 $COUNT$개를 정리했습니다. URL은 기억함에 보관됩니다.",
+    "description": "수동 정리 후 알림.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "탭 1개를 정리했습니다. URL은 기억함에 보관됩니다.",
+    "description": "탭 1개 수동 정리 후 알림."
+  },
+  "restoredFlash": { "message": "새 탭에서 열었습니다.", "description": "다시 열기 후 알림." },
+  "restoreBatch": { "message": "모두 다시 열기", "description": "최근 정리된 탭 일괄 복원 버튼." },
+  "restoredBatchFlash": {
+    "message": "탭 $COUNT$개를 다시 열었습니다.",
+    "description": "일괄 복원 후 알림.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "전체", "description": "전체 필터." },
+  "filterAuto": { "message": "자동 정리", "description": "자동 정리 필터." },
+  "willPerch": {
+    "message": "정리 예정: $LIST$",
+    "description": "정리될 유휴 탭 미리보기.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "설정", "description": "설정 페이지 링크." },
+  "versionLabel": {
+    "message": "버전 $VERSION$",
+    "description": "버전 표시.",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "URL은 이 브라우저에만 저장됩니다. TabPerch는 계정이 없으며 데이터를 외부로 전송하지 않습니다.",
+    "description": "설정 페이지 안내."
+  },
+  "idleNone": { "message": "지금 정리할 미사용 탭이 없습니다.", "description": "정리할 탭이 없을 때." }
+}

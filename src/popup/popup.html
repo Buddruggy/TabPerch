@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TabPerch</title>
+    <link rel="stylesheet" href="../ui/base.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <p id="preview" class="preview" data-i18n="previewBanner" hidden></p>
+    <header class="mast">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32">
+          <rect x="1.2" y="1.2" width="29.6" height="29.6" rx="7.2" fill="#23443a" />
+          <path d="M6.2 18.8 L11.4 15.2 L15.2 10.2 L18.2 7.2 L21.6 7.0 L23.8 9.2 L27.4 10.3 L23.9 12.1 L23.6 15.6 L21.2 19.2 L17.2 20.6 L13.2 19.4 L9.4 20.6 Z" fill="#faf4e8" />
+          <path d="M13.2 15.4 L17.8 11.4 L20.4 13.8 L17.4 17.6 L12.6 17.8 Z" fill="#e5ae86" opacity="0.55" />
+          <circle cx="21.3" cy="10.1" r="0.9" fill="#172f28" />
+          <line x1="6.6" y1="24.2" x2="18.8" y2="24.2" stroke="#e27034" stroke-width="3.7" stroke-linecap="round" />
+          <line x1="22.4" y1="24.2" x2="25.6" y2="24.2" stroke="#98c8b3" stroke-width="3.7" stroke-linecap="round" />
+        </svg>
+      </span>
+      <div>
+        <h1>TabPerch</h1>
+        <p id="summary"></p>
+      </div>
+      <button id="options" class="icon-button" type="button" data-i18n-title="options">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.7" />
+          <path d="M12 3.5v2.2M12 18.3v2.2M3.5 12h2.2M18.3 12h2.2M5.8 5.8l1.6 1.6M16.6 16.6l1.6 1.6M18.2 5.8l-1.6 1.6M7.4 16.6l-1.6 1.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+        </svg>
+      </button>
+    </header>
+    <div id="notice" class="notice" hidden>
+      <span id="notice-text"></span>
+      <button id="restore-batch" class="notice-action" type="button" data-i18n="restoreBatch" hidden></button>
+    </div>
+    <p id="idle-preview" class="hint" hidden></p>
+    <p id="hint" class="hint" hidden></p>
+    <div class="actions">
+      <button id="sort" class="button secondary" type="button" data-i18n="sortWindow"></button>
+      <button id="close" class="button" type="button" data-i18n="closeIdle"></button>
+    </div>
+    <section class="memory">
+      <div class="section-head">
+        <h2 data-i18n="memory"></h2>
+        <div class="filters" role="group">
+          <button id="filter-all" class="chip active" type="button" data-i18n="filterAll"></button>
+          <button id="filter-auto" class="chip" type="button" data-i18n="filterAuto"></button>
+        </div>
+      </div>
+      <label>
+        <input id="search" type="search" data-i18n-placeholder="searchPlaceholder" />
+      </label>
+      <div id="list" class="list"></div>
+    </section>
+    <p id="error" class="error" role="alert" hidden></p>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

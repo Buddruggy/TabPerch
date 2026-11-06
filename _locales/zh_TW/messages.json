@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "擴充功能名稱。"
+  },
+  "extDescription": {
+    "message": "收起不常用的分頁，將同一網站的分頁排在一起，並在本機記住關閉的網址。",
+    "description": "擴充功能說明。"
+  },
+  "openSummary": {
+    "message": "$COUNT$ 個分頁開啟中 · $IDLE$ 個可收起",
+    "description": "有分頁可收起時的摘要。",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ 個分頁開啟中 · 目前沒有要收起的",
+    "description": "沒有分頁可收起時的摘要。",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "整理這個視窗", "description": "整理目前視窗的按鈕。" },
+  "closeIdle": { "message": "收起閒置分頁", "description": "立即收起閒置分頁的按鈕。" },
+  "memory": { "message": "記憶", "description": "已儲存網址的區域標題。" },
+  "searchPlaceholder": { "message": "搜尋標題或網址", "description": "搜尋框佔位文字。" },
+  "restore": { "message": "打開", "description": "重新開啟網址的按鈕。" },
+  "forget": { "message": "忘記", "description": "刪除一筆記憶的按鈕。" },
+  "emptyMemory": { "message": "關閉的網頁會留在這裡，只儲存在這台電腦上。", "description": "記憶為空時的說明。" },
+  "noMatches": { "message": "沒有符合的記憶。", "description": "搜尋無結果。" },
+  "autoClose": { "message": "自動收起不常用的分頁", "description": "設定項。" },
+  "autoSort": { "message": "自動將相關分頁排在一起", "description": "設定項。" },
+  "sectionClose": { "message": "收起", "description": "設定分區。" },
+  "sectionSort": { "message": "整理", "description": "設定分區。" },
+  "sectionMemory": { "message": "記憶", "description": "設定分區。" },
+  "inactiveHours": { "message": "多久未開啟算閒置（小時）", "description": "設定項。" },
+  "inactiveHoursHint": {
+    "message": "從你上次點開該分頁開始計算。安裝時已經開啟的分頁會從安裝時間重新起算，避免一裝上就被關掉。",
+    "description": "閒置時間的說明。"
+  },
+  "minOpenTabs": { "message": "至少保留幾個分頁", "description": "設定項。" },
+  "maxClosePerSweep": { "message": "每次自動檢查最多收起幾個", "description": "設定項。" },
+  "groupByDomain": { "message": "將同一服務的正式站與 test、testsite 環境分成同一組", "description": "設定項。" },
+  "archiveEnabled": { "message": "記住關閉的網址", "description": "設定項。" },
+  "archiveLimit": { "message": "最多記住幾筆", "description": "設定項。" },
+  "whitelist": { "message": "這些網站不要自動關閉", "description": "設定項。" },
+  "whitelistHint": {
+    "message": "每行一個網域。填寫 example.com 會連同子網域一起保留；填寫 docs.example.com 則只保留該站點。",
+    "description": "白名單說明。"
+  },
+  "clearArchive": { "message": "清空記憶", "description": "清空全部記憶的按鈕。" },
+  "clearConfirm": {
+    "message": "要清空 TabPerch 記住的所有網址嗎？Chrome 自己的歷史記錄仍會保留。",
+    "description": "清空前的確認。"
+  },
+  "saved": { "message": "已儲存", "description": "設定儲存後的狀態。" },
+  "saveFailed": { "message": "儲存失敗，請再試一次。", "description": "設定儲存失敗。" },
+  "actionFailed": { "message": "操作失敗，請再試一次。", "description": "操作失敗。" },
+  "keptOpen": {
+    "message": "還有 $REST$ 個閒置分頁會先留著。每次自動檢查最多收起 $MAX$ 個，且至少保留 $MIN$ 個分頁。",
+    "description": "解釋為何不會一次收起全部閒置分頁。",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "剛剛自動收起了 $COUNT$ 個分頁，可在下方重新開啟。",
+    "description": "自動收起後的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "剛剛自動收起了 1 個分頁，可在下方重新開啟。",
+    "description": "自動收起一個分頁後的提示。"
+  },
+  "lastSweep": {
+    "message": "上次檢查於 $WHEN$ · 收起了 $COUNT$ 個",
+    "description": "上一次檢查的結果。",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "剛剛", "description": "相對時間。" },
+  "minuteAgo": { "message": "1 分鐘前", "description": "相對時間。" },
+  "minutesAgo": {
+    "message": "$COUNT$ 分鐘前",
+    "description": "相對時間。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "1 小時前", "description": "相對時間。" },
+  "hoursAgo": {
+    "message": "$COUNT$ 小時前",
+    "description": "相對時間。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "1 天前", "description": "相對時間。" },
+  "daysAgo": {
+    "message": "$COUNT$ 天前",
+    "description": "相對時間。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "這是介面預覽。載入到 Chrome 之後才能管理真正的分頁。",
+    "description": "在 Chrome 外開啟頁面時的提示。"
+  },
+  "reasonAuto": { "message": "自動收起", "description": "記憶來源。" },
+  "reasonManual": { "message": "手動關閉", "description": "記憶來源。" },
+  "moreResults": {
+    "message": "還有 $COUNT$ 筆，縮小搜尋範圍即可顯示。",
+    "description": "記憶列表被截斷時的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "這個視窗已依網站排好。", "description": "整理完成的提示。" },
+  "closedFlash": {
+    "message": "收起了 $COUNT$ 個分頁，網址已留在記憶裡。",
+    "description": "手動收起後的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "收起了 1 個分頁，網址已留在記憶裡。",
+    "description": "手動收起一個分頁後的提示。"
+  },
+  "restoredFlash": { "message": "已在新分頁中開啟。", "description": "重新開啟後的提示。" },
+  "restoreBatch": { "message": "全部恢復", "description": "一鍵恢復上一批自動收起的分頁。" },
+  "restoredBatchFlash": {
+    "message": "已恢復 $COUNT$ 個分頁。",
+    "description": "批次恢復後的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "全部", "description": "顯示全部記憶。" },
+  "filterAuto": { "message": "自動收起", "description": "只顯示自動收起的記憶。" },
+  "willPerch": {
+    "message": "即將收起：$LIST$",
+    "description": "即將被收起的分頁預覽。",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "設定", "description": "開啟設定頁。" },
+  "versionLabel": {
+    "message": "版本 $VERSION$",
+    "description": "版本號。",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "網址只留在這台瀏覽器裡。TabPerch 沒有帳號，也不會將資料傳送到外部。",
+    "description": "設定頁引言。"
+  },
+  "idleNone": { "message": "目前沒有需要收起的分頁。", "description": "手動收起時沒有可收起的分頁。" }
+}

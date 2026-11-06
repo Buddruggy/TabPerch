@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "拡張機能名。"
+  },
+  "extDescription": {
+    "message": "使っていないタブを閉じ、同じサイトのタブをグループ化し、閉じたURLをこのPCに記録します。",
+    "description": "拡張機能の説明。"
+  },
+  "openSummary": {
+    "message": "$COUNT$ 個のタブが開いています · $IDLE$ 個を収納可能",
+    "description": "収納できるタブがある場合の要約。",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ 個のタブが開いています · 収納対象なし",
+    "description": "収納できるタブがない場合の要約。",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "このウィンドウを整理", "description": "現在のウィンドウをグループ化するボタン。" },
+  "closeIdle": { "message": "放置タブを収納", "description": "放置されたタブを今すぐ閉じるボタン。" },
+  "memory": { "message": "履歴メモリ", "description": "保存されたURLのセクション名。" },
+  "searchPlaceholder": { "message": "タイトルまたはURLを検索", "description": "検索ボックスのプレースホルダー。" },
+  "restore": { "message": "開く", "description": "保存したURLを再度開くボタン。" },
+  "forget": { "message": "削除", "description": "保存したURLを1件削除するボタン。" },
+  "emptyMemory": { "message": "閉じたページはこのPC内にのみ保存されます。", "description": "メモリが空のときの説明。" },
+  "noMatches": { "message": "一致するページが見つかりません。", "description": "検索結果がないとき。" },
+  "autoClose": { "message": "使っていないタブを自動で収納する", "description": "設定ラベル。" },
+  "autoSort": { "message": "関連するタブを自動で並べる", "description": "設定ラベル。" },
+  "sectionClose": { "message": "自動収納", "description": "設定セクション。" },
+  "sectionSort": { "message": "自動整理", "description": "設定セクション。" },
+  "sectionMemory": { "message": "履歴メモリ", "description": "設定セクション。" },
+  "inactiveHours": { "message": "放置とみなす時間（時間）", "description": "設定ラベル。" },
+  "inactiveHoursHint": {
+    "message": "最後にタブを開いた時点から計測します。インストール時に開いていたタブはインストール時点から計測されるため、すぐに閉じられることはありません。",
+    "description": "放置タイマーの説明。"
+  },
+  "minOpenTabs": { "message": "常に残す最小タブ数", "description": "設定ラベル。" },
+  "maxClosePerSweep": { "message": "1回の自動チェックで閉じる最大数", "description": "設定ラベル。" },
+  "groupByDomain": { "message": "同一サービスの本番環境と test・testsite 環境を同じグループにまとめる", "description": "設定ラベル。" },
+  "archiveEnabled": { "message": "閉じたURLを記録する", "description": "設定ラベル。" },
+  "archiveLimit": { "message": "保存する最大件数", "description": "設定ラベル。" },
+  "whitelist": { "message": "自動で閉じないサイト", "description": "設定ラベル。" },
+  "whitelistHint": {
+    "message": "1行に1ドメイン。example.com と入力するとサブドメインも保護されます。docs.example.com はそのサイトのみ保護します。",
+    "description": "ホワイトリストのヘルプ。"
+  },
+  "clearArchive": { "message": "メモリを消去", "description": "保存されたすべてのURLを削除するボタン。" },
+  "clearConfirm": {
+    "message": "TabPerch が記録したすべてのURLを消去しますか？Chrome 本体の履歴は残ります。",
+    "description": "消去前の確認。"
+  },
+  "saved": { "message": "保存しました", "description": "保存完了ステータス。" },
+  "saveFailed": { "message": "保存できませんでした。もう一度お試しください。", "description": "保存失敗ステータス。" },
+  "actionFailed": { "message": "処理に失敗しました。もう一度お試しください。", "description": "操作失敗ステータス。" },
+  "keptOpen": {
+    "message": "他 $REST$ 個の放置タブはそのまま残しています。自動チェックでは1回につき最大 $MAX$ 個まで閉じ、最低 $MIN$ 個のタブを残します。",
+    "description": "すべての放置タブを一度に閉じない理由。",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "$COUNT$ 個のタブを自動収納しました。下から再度開けます。",
+    "description": "自動収納後の通知。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "1 個のタブを自動収納しました。下から再度開けます。",
+    "description": "1件自動収納後の通知。"
+  },
+  "lastSweep": {
+    "message": "前回チェック $WHEN$ · $COUNT$ 個を収納",
+    "description": "前回チェックの結果。",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "たった今", "description": "相対時間。" },
+  "minuteAgo": { "message": "1分前", "description": "相対時間。" },
+  "minutesAgo": {
+    "message": "$COUNT$分前",
+    "description": "相対時間。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "1時間前", "description": "相対時間。" },
+  "hoursAgo": {
+    "message": "$COUNT$時間前",
+    "description": "相対時間。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "1日前", "description": "相対時間。" },
+  "daysAgo": {
+    "message": "$COUNT$日前",
+    "description": "相対時間。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "UIプレビューです。Chrome に読み込むと実際のタブを管理できます。",
+    "description": "Chrome 外で開いたときの通知。"
+  },
+  "reasonAuto": { "message": "自動収納", "description": "保存理由。" },
+  "reasonManual": { "message": "手動で閉じた", "description": "保存理由。" },
+  "moreResults": {
+    "message": "他 $COUNT$ 件あります。検索語を絞り込んでください。",
+    "description": "リストが省略されたときの表示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "このウィンドウをサイト別に整理しました。", "description": "整理完了の通知。" },
+  "closedFlash": {
+    "message": "$COUNT$ 個のタブを収納しました。URLはメモリに保存されています。",
+    "description": "手動収納後の通知。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "1 個のタブを収納しました。URLはメモリに保存されています。",
+    "description": "1件手動収納後の通知。"
+  },
+  "restoredFlash": { "message": "新しいタブで開きました。", "description": "復元後の通知。" },
+  "restoreBatch": { "message": "すべて復元", "description": "直前に収納したタブをまとめて開くボタン。" },
+  "restoredBatchFlash": {
+    "message": "$COUNT$ 個のタブを復元しました。",
+    "description": "一括復元後の通知。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "すべて", "description": "すべて表示フィルタ。" },
+  "filterAuto": { "message": "自動収納", "description": "自動収納のみ表示フィルタ。" },
+  "willPerch": {
+    "message": "収納予定：$LIST$",
+    "description": "収納予定タブのプレビュー。",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "設定", "description": "設定ページへのリンク。" },
+  "versionLabel": {
+    "message": "バージョン $VERSION$",
+    "description": "バージョン表示。",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "URLはこのブラウザ内にのみ保存されます。アカウント不要で、外部へ送信されることはありません。",
+    "description": "設定ページの紹介文。"
+  },
+  "idleNone": { "message": "現在収納できる放置タブはありません。", "description": "収納対象がないとき。" }
+}

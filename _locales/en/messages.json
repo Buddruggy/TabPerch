@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "Extension name."
+  },
+  "extDescription": {
+    "message": "Close idle tabs, group tabs from the same site, and remember URLs on this computer.",
+    "description": "Extension description."
+  },
+  "openSummary": {
+    "message": "$COUNT$ tabs open · $IDLE$ can perch",
+    "description": "Popup summary when some tabs can be closed.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ tabs open · nothing to perch",
+    "description": "Popup summary when no tabs will be closed.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "Sort this window", "description": "Button that groups the current window." },
+  "closeIdle": { "message": "Perch idle tabs", "description": "Button that closes idle tabs once." },
+  "memory": { "message": "Memory", "description": "Section title for saved URLs." },
+  "searchPlaceholder": { "message": "Search titles or URLs", "description": "Search box placeholder." },
+  "restore": { "message": "Reopen", "description": "Button that opens a saved URL." },
+  "forget": { "message": "Forget", "description": "Button that deletes one saved URL." },
+  "emptyMemory": { "message": "Closed pages stay here, on this computer only.", "description": "Empty memory state." },
+  "noMatches": { "message": "No saved pages match that search.", "description": "Empty search state." },
+  "autoClose": { "message": "Close idle tabs automatically", "description": "Setting label." },
+  "autoSort": { "message": "Sort related tabs automatically", "description": "Setting label." },
+  "sectionClose": { "message": "Closing", "description": "Settings section." },
+  "sectionSort": { "message": "Sorting", "description": "Settings section." },
+  "sectionMemory": { "message": "Memory", "description": "Settings section." },
+  "inactiveHours": { "message": "Idle after (hours)", "description": "Setting label." },
+  "inactiveHoursHint": {
+    "message": "The clock starts when you last open the tab. Tabs already open at install start from that moment, so nothing is closed in a rush.",
+    "description": "Explanation of the idle timer."
+  },
+  "minOpenTabs": { "message": "Always keep at least this many tabs", "description": "Setting label." },
+  "maxClosePerSweep": { "message": "Close at most this many each pass", "description": "Setting label." },
+  "groupByDomain": { "message": "Group a service with its test and testsite hosts", "description": "Setting label." },
+  "archiveEnabled": { "message": "Remember closed URLs", "description": "Setting label." },
+  "archiveLimit": { "message": "Memories to keep", "description": "Setting label." },
+  "whitelist": { "message": "Never close these sites", "description": "Setting label." },
+  "whitelistHint": {
+    "message": "One domain per line. example.com also keeps its subdomains. docs.example.com keeps only that site.",
+    "description": "Whitelist help."
+  },
+  "clearArchive": { "message": "Clear memory", "description": "Button that deletes every saved URL." },
+  "clearConfirm": {
+    "message": "Clear every URL TabPerch has remembered? Chrome history is left as it is.",
+    "description": "Confirmation before clearing memory."
+  },
+  "saved": { "message": "Saved", "description": "Status after settings are stored." },
+  "saveFailed": { "message": "Couldn't save. Try again.", "description": "Status when saving settings fails." },
+  "actionFailed": { "message": "That didn't work. Try again.", "description": "Status when an action fails." },
+  "keptOpen": {
+    "message": "$REST$ more idle tabs stay for now. Each pass closes at most $MAX$, and at least $MIN$ tabs stay open.",
+    "description": "Explains why not every idle tab closes at once.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "$COUNT$ tabs just perched. You can reopen them below.",
+    "description": "Shown after automatic closes.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "1 tab just perched. You can reopen it below.",
+    "description": "Shown after one automatic close."
+  },
+  "lastSweep": {
+    "message": "Last check $WHEN$ · perched $COUNT$",
+    "description": "Shown after a previous sweep.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "just now", "description": "Relative time." },
+  "minuteAgo": { "message": "1 minute ago", "description": "Relative time for one minute." },
+  "minutesAgo": {
+    "message": "$COUNT$ minutes ago",
+    "description": "Relative time in minutes.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "1 hour ago", "description": "Relative time for one hour." },
+  "hoursAgo": {
+    "message": "$COUNT$ hours ago",
+    "description": "Relative time in hours.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "1 day ago", "description": "Relative time for one day." },
+  "daysAgo": {
+    "message": "$COUNT$ days ago",
+    "description": "Relative time in days.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "Interface preview. TabPerch can manage real tabs after it is loaded in Chrome.",
+    "description": "Shown when the page is opened outside Chrome."
+  },
+  "reasonAuto": { "message": "perched", "description": "Why a URL was saved." },
+  "reasonManual": { "message": "closed", "description": "Why a URL was saved." },
+  "moreResults": {
+    "message": "$COUNT$ more. Narrow the search to see them.",
+    "description": "Shown when the memory list is truncated.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "This window is grouped by site.", "description": "Confirmation after sorting." },
+  "closedFlash": {
+    "message": "Perched $COUNT$ tabs. The URLs are in memory.",
+    "description": "Confirmation after closing idle tabs.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "Perched 1 tab. The URL is in memory.",
+    "description": "Confirmation after closing one idle tab."
+  },
+  "restoredFlash": { "message": "Opened in a new tab.", "description": "Confirmation after reopening a URL." },
+  "restoreBatch": { "message": "Reopen all", "description": "Button to reopen the last perched batch." },
+  "restoredBatchFlash": {
+    "message": "Reopened $COUNT$ tabs.",
+    "description": "Confirmation after reopening a batch.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "All", "description": "Filter for all saved URLs." },
+  "filterAuto": { "message": "Perched", "description": "Filter for auto-perched URLs." },
+  "willPerch": {
+    "message": "Next to perch: $LIST$",
+    "description": "Preview of idle tabs that will close.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "Settings", "description": "Link to the settings page." },
+  "versionLabel": {
+    "message": "Version $VERSION$",
+    "description": "Version label.",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "URLs stay in this browser. TabPerch has no account and does not send them anywhere.",
+    "description": "Settings introduction."
+  },
+  "idleNone": { "message": "Nothing to perch right now.", "description": "Shown when a manual sweep closes nothing." }
+}

@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "Nombre de la extensión."
+  },
+  "extDescription": {
+    "message": "Cierra pestañas inactivas, agrupa las del mismo sitio y recuerda las URL en este equipo.",
+    "description": "Descripción de la extensión."
+  },
+  "openSummary": {
+    "message": "$COUNT$ pestañas abiertas · $IDLE$ listas para archivar",
+    "description": "Resumen cuando hay pestañas inactivas.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ pestañas abiertas · nada que archivar",
+    "description": "Resumen cuando no hay pestañas inactivas.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "Ordenar ventana", "description": "Botón para agrupar la ventana actual." },
+  "closeIdle": { "message": "Archivar inactivas", "description": "Botón para cerrar pestañas inactivas." },
+  "memory": { "message": "Memoria", "description": "Título de la sección de URL guardadas." },
+  "searchPlaceholder": { "message": "Buscar títulos o URL", "description": "Marcador de búsqueda." },
+  "restore": { "message": "Reabrir", "description": "Botón para reabrir una URL." },
+  "forget": { "message": "Olvidar", "description": "Botón para eliminar una URL." },
+  "emptyMemory": { "message": "Las páginas cerradas se guardan aquí, solo en este equipo.", "description": "Estado vacío." },
+  "noMatches": { "message": "Ninguna página guardada coincide con la búsqueda.", "description": "Sin resultados." },
+  "autoClose": { "message": "Cerrar pestañas inactivas automáticamente", "description": "Etiqueta de ajuste." },
+  "autoSort": { "message": "Ordenar pestañas relacionadas automáticamente", "description": "Etiqueta de ajuste." },
+  "sectionClose": { "message": "Cierre", "description": "Sección de ajustes." },
+  "sectionSort": { "message": "Orden", "description": "Sección de ajustes." },
+  "sectionMemory": { "message": "Memoria", "description": "Sección de ajustes." },
+  "inactiveHours": { "message": "Inactiva después de (horas)", "description": "Etiqueta de ajuste." },
+  "inactiveHoursHint": {
+    "message": "El tiempo cuenta desde la última vez que abriste la pestaña. Las pestañas abiertas al instalar empiezan a contar desde ese momento.",
+    "description": "Explicación del temporizador."
+  },
+  "minOpenTabs": { "message": "Mantener siempre al menos estas pestañas", "description": "Etiqueta de ajuste." },
+  "maxClosePerSweep": { "message": "Cerrar como máximo por revisión", "description": "Etiqueta de ajuste." },
+  "groupByDomain": { "message": "Agrupar un servicio con sus entornos test y testsite", "description": "Etiqueta de ajuste." },
+  "archiveEnabled": { "message": "Recordar URL cerradas", "description": "Etiqueta de ajuste." },
+  "archiveLimit": { "message": "Recuerdos a conservar", "description": "Etiqueta de ajuste." },
+  "whitelist": { "message": "No cerrar nunca estos sitios", "description": "Etiqueta de ajuste." },
+  "whitelistHint": {
+    "message": "Un dominio por línea. example.com también protege sus subdominios; docs.example.com solo ese sitio.",
+    "description": "Ayuda de lista blanca."
+  },
+  "clearArchive": { "message": "Borrar memoria", "description": "Botón para borrar toda la memoria." },
+  "clearConfirm": {
+    "message": "¿Borrar todas las URL recordadas por TabPerch? El historial de Chrome no se tocará.",
+    "description": "Confirmación antes de borrar."
+  },
+  "saved": { "message": "Guardado", "description": "Estado tras guardar." },
+  "saveFailed": { "message": "No se pudo guardar. Inténtalo de nuevo.", "description": "Error al guardar." },
+  "actionFailed": { "message": "No funcionó. Inténtalo de nuevo.", "description": "Error de acción." },
+  "keptOpen": {
+    "message": "Quedan $REST$ pestañas inactivas por ahora. Cada revisión cierra hasta $MAX$ y deja al menos $MIN$ abiertas.",
+    "description": "Explica el límite por pasada.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "Se archivaron $COUNT$ pestañas. Puedes reabrirlas abajo.",
+    "description": "Aviso tras cierre automático.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "Se archivó 1 pestaña. Puedes reabrirla abajo.",
+    "description": "Aviso tras cerrar una pestaña."
+  },
+  "lastSweep": {
+    "message": "Última revisión $WHEN$ · $COUNT$ archivadas",
+    "description": "Resultado de revisión anterior.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "ahora mismo", "description": "Tiempo relativo." },
+  "minuteAgo": { "message": "hace 1 minuto", "description": "Tiempo relativo." },
+  "minutesAgo": {
+    "message": "hace $COUNT$ minutos",
+    "description": "Tiempo relativo.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "hace 1 hora", "description": "Tiempo relativo." },
+  "hoursAgo": {
+    "message": "hace $COUNT$ horas",
+    "description": "Tiempo relativo.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "hace 1 día", "description": "Tiempo relativo." },
+  "daysAgo": {
+    "message": "hace $COUNT$ días",
+    "description": "Tiempo relativo.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "Vista previa. TabPerch gestionará pestañas reales al cargarse en Chrome.",
+    "description": "Aviso fuera de Chrome."
+  },
+  "reasonAuto": { "message": "archivada", "description": "Motivo de guardado." },
+  "reasonManual": { "message": "cerrada", "description": "Motivo de guardado." },
+  "moreResults": {
+    "message": "$COUNT$ más. Afina la búsqueda para verlas.",
+    "description": "Lista truncada.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "Ventana agrupada por sitio.", "description": "Confirmación al ordenar." },
+  "closedFlash": {
+    "message": "$COUNT$ pestañas archivadas. Las URL están en la memoria.",
+    "description": "Confirmación al cerrar inactivas.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "1 pestaña archivada. La URL está en la memoria.",
+    "description": "Confirmación al cerrar una inactiva."
+  },
+  "restoredFlash": { "message": "Abierta en una pestaña nueva.", "description": "Confirmación al reabrir." },
+  "restoreBatch": { "message": "Reabrir todas", "description": "Botón para reabrir el último lote." },
+  "restoredBatchFlash": {
+    "message": "Se reabrieron $COUNT$ pestañas.",
+    "description": "Confirmación al reabrir lote.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "Todas", "description": "Filtro todas." },
+  "filterAuto": { "message": "Archivadas", "description": "Filtro automáticas." },
+  "willPerch": {
+    "message": "Próximas a archivar: $LIST$",
+    "description": "Vista previa de pestañas inactivas.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "Ajustes", "description": "Enlace a ajustes." },
+  "versionLabel": {
+    "message": "Versión $VERSION$",
+    "description": "Etiqueta de versión.",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "Las URL se quedan en este navegador. TabPerch no tiene cuentas ni envía datos a ningún sitio.",
+    "description": "Introducción en ajustes."
+  },
+  "idleNone": { "message": "No hay nada que archivar ahora mismo.", "description": "Sin pestañas inactivas." }
+}

@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "Nom de l'extension."
+  },
+  "extDescription": {
+    "message": "Fermez les onglets inactifs, regroupez ceux d'un même site et mémorisez les URL sur cet ordinateur.",
+    "description": "Description de l'extension."
+  },
+  "openSummary": {
+    "message": "$COUNT$ onglets ouverts · $IDLE$ à ranger",
+    "description": "Résumé avec onglets inactifs.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ onglets ouverts · rien à ranger",
+    "description": "Résumé sans onglets inactifs.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "Trier la fenêtre", "description": "Bouton pour grouper la fenêtre." },
+  "closeIdle": { "message": "Ranger les inactifs", "description": "Bouton pour fermer les onglets inactifs." },
+  "memory": { "message": "Mémoire", "description": "Titre de la section mémoire." },
+  "searchPlaceholder": { "message": "Rechercher titres ou URL", "description": "Placeholder de recherche." },
+  "restore": { "message": "Rouvrir", "description": "Bouton pour rouvrir une URL." },
+  "forget": { "message": "Oublier", "description": "Bouton pour supprimer une URL." },
+  "emptyMemory": { "message": "Les pages fermées restent ici, uniquement sur cet ordinateur.", "description": "État vide." },
+  "noMatches": { "message": "Aucune page enregistrée ne correspond.", "description": "Aucun résultat." },
+  "autoClose": { "message": "Fermer automatiquement les onglets inactifs", "description": "Option." },
+  "autoSort": { "message": "Trier automatiquement les onglets liés", "description": "Option." },
+  "sectionClose": { "message": "Fermeture", "description": "Section des paramètres." },
+  "sectionSort": { "message": "Tri", "description": "Section des paramètres." },
+  "sectionMemory": { "message": "Mémoire", "description": "Section des paramètres." },
+  "inactiveHours": { "message": "Inactif après (heures)", "description": "Option." },
+  "inactiveHoursHint": {
+    "message": "Le délai court depuis la dernière ouverture de l'onglet. Les onglets déjà ouverts à l'installation partent de ce moment-là.",
+    "description": "Explication du délai."
+  },
+  "minOpenTabs": { "message": "Toujours garder au moins ce nombre d'onglets", "description": "Option." },
+  "maxClosePerSweep": { "message": "Fermer au maximum à chaque passage", "description": "Option." },
+  "groupByDomain": { "message": "Grouper un service avec ses hôtes test et testsite", "description": "Option." },
+  "archiveEnabled": { "message": "Mémoriser les URL fermées", "description": "Option." },
+  "archiveLimit": { "message": "Souvenirs à conserver", "description": "Option." },
+  "whitelist": { "message": "Ne jamais fermer ces sites", "description": "Option." },
+  "whitelistHint": {
+    "message": "Un domaine par ligne. example.com protège aussi ses sous-domaines ; docs.example.com ne protège que ce site.",
+    "description": "Aide liste blanche."
+  },
+  "clearArchive": { "message": "Vider la mémoire", "description": "Bouton pour tout effacer." },
+  "clearConfirm": {
+    "message": "Effacer toutes les URL mémorisées par TabPerch ? L'historique Chrome reste intact.",
+    "description": "Confirmation avant effacement."
+  },
+  "saved": { "message": "Enregistré", "description": "Statut après sauvegarde." },
+  "saveFailed": { "message": "Impossible d'enregistrer. Réessayez.", "description": "Erreur de sauvegarde." },
+  "actionFailed": { "message": "Échec de l'opération. Réessayez.", "description": "Erreur d'action." },
+  "keptOpen": {
+    "message": "$REST$ autres onglets inactifs restent ouverts pour l'instant. Chaque passage en ferme au plus $MAX$ et en garde au moins $MIN$.",
+    "description": "Explication de la limite par passage.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "$COUNT$ onglets rangés. Vous pouvez les rouvrir ci-dessous.",
+    "description": "Avis après fermeture auto.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "1 onglet rangé. Vous pouvez le rouvrir ci-dessous.",
+    "description": "Avis après fermeture d'un onglet."
+  },
+  "lastSweep": {
+    "message": "Dernière vérif. $WHEN$ · $COUNT$ rangés",
+    "description": "Résultat précédent.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "à l'instant", "description": "Temps relatif." },
+  "minuteAgo": { "message": "il y a 1 minute", "description": "Temps relatif." },
+  "minutesAgo": {
+    "message": "il y a $COUNT$ minutes",
+    "description": "Temps relatif.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "il y a 1 heure", "description": "Temps relatif." },
+  "hoursAgo": {
+    "message": "il y a $COUNT$ heures",
+    "description": "Temps relatif.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "il y a 1 jour", "description": "Temps relatif." },
+  "daysAgo": {
+    "message": "il y a $COUNT$ jours",
+    "description": "Temps relatif.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "Aperçu de l'interface. TabPerch gérera vos onglets une fois chargé dans Chrome.",
+    "description": "Bannière hors Chrome."
+  },
+  "reasonAuto": { "message": "rangé", "description": "Motif." },
+  "reasonManual": { "message": "fermé", "description": "Motif." },
+  "moreResults": {
+    "message": "$COUNT$ de plus. Affinez la recherche pour les voir.",
+    "description": "Liste tronquée.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "Cette fenêtre est groupée par site.", "description": "Confirmation après tri." },
+  "closedFlash": {
+    "message": "$COUNT$ onglets rangés. Les URL sont en mémoire.",
+    "description": "Confirmation après fermeture.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "1 onglet rangé. L'URL est en mémoire.",
+    "description": "Confirmation après fermeture d'un onglet."
+  },
+  "restoredFlash": { "message": "Ouvert dans un nouvel onglet.", "description": "Confirmation après réouverture." },
+  "restoreBatch": { "message": "Tout rouvrir", "description": "Bouton pour rouvrir le dernier lot." },
+  "restoredBatchFlash": {
+    "message": "$COUNT$ onglets rouverts.",
+    "description": "Confirmation après réouverture du lot.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "Tous", "description": "Filtre tous." },
+  "filterAuto": { "message": "Rangés", "description": "Filtre auto." },
+  "willPerch": {
+    "message": "Prochains à ranger : $LIST$",
+    "description": "Aperçu des onglets inactifs.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "Paramètres", "description": "Lien vers paramètres." },
+  "versionLabel": {
+    "message": "Version $VERSION$",
+    "description": "Version." ,
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "Les URL restent dans ce navigateur. TabPerch n'a pas de compte et n'envoie rien à l'extérieur.",
+    "description": "Introduction des paramètres."
+  },
+  "idleNone": { "message": "Rien à ranger pour le moment.", "description": "Aucun onglet inactif." }
+}

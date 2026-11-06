@@ -1,0 +1,23 @@
+{
+  "name": "tabperch",
+  "version": "0.1.0",
+  "description": "Chrome extension that closes idle tabs, groups related tabs, and remembers URLs locally.",
+  "license": "MIT",
+  "author": "Buddruggy",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "pack": "python3 scripts/pack-release.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buddruggy/TabPerch.git"
+  },
+  "homepage": "https://github.com/Buddruggy/TabPerch",
+  "bugs": {
+    "url": "https://github.com/Buddruggy/TabPerch/issues"
+  }
+}

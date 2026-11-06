@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "Name der Erweiterung."
+  },
+  "extDescription": {
+    "message": "Inaktive Tabs schließen, zusammengehörige Tabs gruppieren und geschlossene URLs lokal merken.",
+    "description": "Beschreibung der Erweiterung."
+  },
+  "openSummary": {
+    "message": "$COUNT$ Tabs offen · $IDLE$ bereit zum Ablegen",
+    "description": "Zusammenfassung bei inaktiven Tabs.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ Tabs offen · nichts abzulegen",
+    "description": "Zusammenfassung ohne inaktive Tabs.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "Fenster sortieren", "description": "Button zum Gruppieren des aktuellen Fensters." },
+  "closeIdle": { "message": "Inaktive ablegen", "description": "Button zum Schließen inaktiver Tabs." },
+  "memory": { "message": "Gedächtnis", "description": "Abschnittstitel für gespeicherte URLs." },
+  "searchPlaceholder": { "message": "Titel oder URLs suchen", "description": "Suchfeld-Platzhalter." },
+  "restore": { "message": "Öffnen", "description": "Button zum Wiederöffnen." },
+  "forget": { "message": "Löschen", "description": "Button zum Entfernen eines Eintrags." },
+  "emptyMemory": { "message": "Geschlossene Seiten bleiben hier – nur auf diesem Computer.", "description": "Leerer Zustand." },
+  "noMatches": { "message": "Keine gespeicherten Seiten entsprechen der Suche.", "description": "Keine Treffer." },
+  "autoClose": { "message": "Inaktive Tabs automatisch schließen", "description": "Einstellung." },
+  "autoSort": { "message": "Zusammengehörige Tabs automatisch sortieren", "description": "Einstellung." },
+  "sectionClose": { "message": "Schließen", "description": "Einstellungsbereich." },
+  "sectionSort": { "message": "Sortieren", "description": "Einstellungsbereich." },
+  "sectionMemory": { "message": "Gedächtnis", "description": "Einstellungsbereich." },
+  "inactiveHours": { "message": "Inaktiv nach (Stunden)", "description": "Einstellung." },
+  "inactiveHoursHint": {
+    "message": "Die Zeit zählt ab dem letzten Öffnen des Tabs. Beim Installieren bereits geöffnete Tabs starten ab dem Installationszeitpunkt.",
+    "description": "Hinweis zum Timer."
+  },
+  "minOpenTabs": { "message": "Immer mindestens so viele Tabs offen lassen", "description": "Einstellung." },
+  "maxClosePerSweep": { "message": "Pro Durchgang höchstens schließen", "description": "Einstellung." },
+  "groupByDomain": { "message": "Dienst mit seinen test- und testsite-Hosts gruppieren", "description": "Einstellung." },
+  "archiveEnabled": { "message": "Geschlossene URLs merken", "description": "Einstellung." },
+  "archiveLimit": { "message": "Gespeicherte Einträge behalten", "description": "Einstellung." },
+  "whitelist": { "message": "Diese Websites nie schließen", "description": "Einstellung." },
+  "whitelistHint": {
+    "message": "Eine Domain pro Zeile. example.com schützt auch Subdomains; docs.example.com nur diese Website.",
+    "description": "Whitelist-Hilfe."
+  },
+  "clearArchive": { "message": "Gedächtnis leeren", "description": "Button zum Löschen aller Einträge." },
+  "clearConfirm": {
+    "message": "Alle von TabPerch gemerkten URLs löschen? Der Chrome-Verlauf bleibt erhalten.",
+    "description": "Bestätigung vor dem Leeren."
+  },
+  "saved": { "message": "Gespeichert", "description": "Status nach dem Speichern." },
+  "saveFailed": { "message": "Speichern fehlgeschlagen. Bitte erneut versuchen.", "description": "Fehler beim Speichern." },
+  "actionFailed": { "message": "Aktion fehlgeschlagen. Bitte erneut versuchen.", "description": "Fehler bei Aktion." },
+  "keptOpen": {
+    "message": "$REST$ weitere inaktive Tabs bleiben vorerst offen. Jeder Durchgang schließt höchstens $MAX$ und lässt mindestens $MIN$ offen.",
+    "description": "Erklärt das Limit pro Durchgang.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "$COUNT$ Tabs abgelegt. Unten kannst du sie wieder öffnen.",
+    "description": "Hinweis nach automatischem Schließen.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "1 Tab abgelegt. Unten kannst du ihn wieder öffnen.",
+    "description": "Hinweis nach dem Schließen eines Tabs."
+  },
+  "lastSweep": {
+    "message": "Letzte Prüfung $WHEN$ · $COUNT$ abgelegt",
+    "description": "Ergebnis der letzten Prüfung.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "gerade eben", "description": "Relative Zeit." },
+  "minuteAgo": { "message": "vor 1 Minute", "description": "Relative Zeit." },
+  "minutesAgo": {
+    "message": "vor $COUNT$ Minuten",
+    "description": "Relative Zeit.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "vor 1 Stunde", "description": "Relative Zeit." },
+  "hoursAgo": {
+    "message": "vor $COUNT$ Stunden",
+    "description": "Relative Zeit.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "vor 1 Tag", "description": "Relative Zeit." },
+  "daysAgo": {
+    "message": "vor $COUNT$ Tagen",
+    "description": "Relative Zeit.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "Vorschau. TabPerch verwaltet echte Tabs, sobald es in Chrome geladen ist.",
+    "description": "Banner außerhalb von Chrome."
+  },
+  "reasonAuto": { "message": "abgelegt", "description": "Speichergrund." },
+  "reasonManual": { "message": "geschlossen", "description": "Speichergrund." },
+  "moreResults": {
+    "message": "$COUNT$ weitere. Suche eingrenzen, um sie zu sehen.",
+    "description": "Abgeschnittene Liste.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "Dieses Fenster ist nach Website gruppiert.", "description": "Bestätigung nach Sortierung." },
+  "closedFlash": {
+    "message": "$COUNT$ Tabs abgelegt. Die URLs sind im Gedächtnis.",
+    "description": "Bestätigung nach Ablegen.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "1 Tab abgelegt. Die URL ist im Gedächtnis.",
+    "description": "Bestätigung nach Ablegen eines Tabs."
+  },
+  "restoredFlash": { "message": "In neuem Tab geöffnet.", "description": "Bestätigung nach Wiederöffnen." },
+  "restoreBatch": { "message": "Alle öffnen", "description": "Button zum Wiederöffnen des letzten Stapels." },
+  "restoredBatchFlash": {
+    "message": "$COUNT$ Tabs wieder geöffnet.",
+    "description": "Bestätigung nach Stapel-Wiederherstellung.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "Alle", "description": "Filter Alle." },
+  "filterAuto": { "message": "Abgelegt", "description": "Filter Automatisch." },
+  "willPerch": {
+    "message": "Als Nächstes ablegen: $LIST$",
+    "description": "Vorschau inaktiver Tabs.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "Einstellungen", "description": "Link zu Einstellungen." },
+  "versionLabel": {
+    "message": "Version $VERSION$",
+    "description": "Versionsanzeige.",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "URLs bleiben in diesem Browser. TabPerch hat kein Konto und sendet keine Daten nach außen.",
+    "description": "Einleitung in Einstellungen."
+  },
+  "idleNone": { "message": "Derzeit nichts abzulegen.", "description": "Keine inaktiven Tabs." }
+}

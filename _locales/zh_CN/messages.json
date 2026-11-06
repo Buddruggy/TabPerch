@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "扩展名称。"
+  },
+  "extDescription": {
+    "message": "收起不常用的标签，把同一网站排到一起，并在本地记住关掉的网址。",
+    "description": "扩展描述。"
+  },
+  "openSummary": {
+    "message": "$COUNT$ 个标签开着 · $IDLE$ 个这次可以收起",
+    "description": "有标签可收起时的摘要。",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ 个标签开着 · 这次没有要收起的",
+    "description": "没有标签可收起时的摘要。",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "整理这个窗口", "description": "整理当前窗口的按钮。" },
+  "closeIdle": { "message": "收起不常用的", "description": "立即收起闲置标签的按钮。" },
+  "memory": { "message": "记忆", "description": "已保存网址的区域标题。" },
+  "searchPlaceholder": { "message": "搜索标题或网址", "description": "搜索框占位文字。" },
+  "restore": { "message": "打开", "description": "重新打开网址的按钮。" },
+  "forget": { "message": "忘记", "description": "删除一条记忆的按钮。" },
+  "emptyMemory": { "message": "关掉的网页会留在这里，只存在这台电脑上。", "description": "记忆为空时的说明。" },
+  "noMatches": { "message": "没有符合的记忆。", "description": "搜索无结果。" },
+  "autoClose": { "message": "自动收起不常用的标签", "description": "设置项。" },
+  "autoSort": { "message": "自动把相关标签排在一起", "description": "设置项。" },
+  "sectionClose": { "message": "收起", "description": "设置分区。" },
+  "sectionSort": { "message": "整理", "description": "设置分区。" },
+  "sectionMemory": { "message": "记忆", "description": "设置分区。" },
+  "inactiveHours": { "message": "多久没打开算不常用（小时）", "description": "设置项。" },
+  "inactiveHoursHint": {
+    "message": "从你上次点开这个标签开始算。安装时已经打开的标签，会从安装时间重新起算，避免一装上就关掉。",
+    "description": "闲置时间的说明。"
+  },
+  "minOpenTabs": { "message": "至少保留多少个标签", "description": "设置项。" },
+  "maxClosePerSweep": { "message": "每次最多收起多少个", "description": "设置项。" },
+  "groupByDomain": { "message": "把同一服务的正式站和 test、testsite 环境分成一组", "description": "设置项。" },
+  "archiveEnabled": { "message": "记住关掉的网址", "description": "设置项。" },
+  "archiveLimit": { "message": "最多记住多少条", "description": "设置项。" },
+  "whitelist": { "message": "这些网站不要自动关掉", "description": "设置项。" },
+  "whitelistHint": {
+    "message": "每行一个域名。写成 example.com 会连同子域名一起保留；写成 docs.example.com 则只保留这个站点。",
+    "description": "白名单说明。"
+  },
+  "clearArchive": { "message": "清空记忆", "description": "清空全部记忆的按钮。" },
+  "clearConfirm": {
+    "message": "要清空 TabPerch 记住的网址吗？Chrome 自己的历史记录还会留着。",
+    "description": "清空前的确认。"
+  },
+  "saved": { "message": "已保存", "description": "设置保存后的状态。" },
+  "saveFailed": { "message": "没保存成功，再试一次。", "description": "设置保存失败。" },
+  "actionFailed": { "message": "这次没做成，再试一次。", "description": "操作失败。" },
+  "keptOpen": {
+    "message": "还有 $REST$ 个不常用的会先留着。每次最多收起 $MAX$ 个，并且至少保留 $MIN$ 个标签。",
+    "description": "解释为什么不会一次收起全部闲置标签。",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "刚刚自动收起了 $COUNT$ 个，可以在下面重新打开。",
+    "description": "自动收起后的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "刚刚自动收起了 1 个，可以在下面重新打开。",
+    "description": "自动收起一个标签后的提示。"
+  },
+  "lastSweep": {
+    "message": "上次检查是 $WHEN$，收起了 $COUNT$ 个。",
+    "description": "上一次检查的结果。",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "刚刚", "description": "相对时间。" },
+  "minuteAgo": { "message": "1 分钟前", "description": "相对时间。" },
+  "minutesAgo": {
+    "message": "$COUNT$ 分钟前",
+    "description": "相对时间。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "1 小时前", "description": "相对时间。" },
+  "hoursAgo": {
+    "message": "$COUNT$ 小时前",
+    "description": "相对时间。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "1 天前", "description": "相对时间。" },
+  "daysAgo": {
+    "message": "$COUNT$ 天前",
+    "description": "相对时间。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "这是界面预览。加载到 Chrome 之后，才会管理真正的标签。",
+    "description": "在 Chrome 外打开页面时的提示。"
+  },
+  "reasonAuto": { "message": "自动收起", "description": "记忆来源。" },
+  "reasonManual": { "message": "手动关掉", "description": "记忆来源。" },
+  "moreResults": {
+    "message": "还有 $COUNT$ 条，缩小搜索范围就能看到。",
+    "description": "记忆列表被截断时的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "这个窗口已经按网站排好了。", "description": "整理完成的提示。" },
+  "closedFlash": {
+    "message": "收起了 $COUNT$ 个，网址留在记忆里。",
+    "description": "手动收起后的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "收起了 1 个，网址留在记忆里。",
+    "description": "手动收起一个标签后的提示。"
+  },
+  "restoredFlash": { "message": "已在新标签打开。", "description": "重新打开后的提示。" },
+  "restoreBatch": { "message": "全部恢复", "description": "一键恢复上一批自动收起的标签。" },
+  "restoredBatchFlash": {
+    "message": "已恢复 $COUNT$ 个标签。",
+    "description": "批量恢复后的提示。",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "全部", "description": "显示全部记忆。" },
+  "filterAuto": { "message": "自动收起", "description": "只显示自动收起的记忆。" },
+  "willPerch": {
+    "message": "即将收起：$LIST$",
+    "description": "即将被收起的标签预览。",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "设置", "description": "打开设置页。" },
+  "versionLabel": {
+    "message": "版本 $VERSION$",
+    "description": "版本号。",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "网址只留在这台浏览器里。TabPerch 没有账号，也不会把它们发出去。",
+    "description": "设置页引言。"
+  },
+  "idleNone": { "message": "这次没有要收起的标签。", "description": "手动收起时没有可收起的标签。" }
+}

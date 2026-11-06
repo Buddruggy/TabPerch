@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "Название расширения."
+  },
+  "extDescription": {
+    "message": "Закрывает неактивные вкладки, группирует вкладки одного сайта и сохраняет URL локально на этом компьютере.",
+    "description": "Описание расширения."
+  },
+  "openSummary": {
+    "message": "Открыто вкладок: $COUNT$ · можно свернуть: $IDLE$",
+    "description": "Сводка при наличии неактивных вкладок.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "Открыто вкладок: $COUNT$ · нечего сворачивать",
+    "description": "Сводка без неактивных вкладок.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "Упорядочить окно", "description": "Кнопка группировки текущего окна." },
+  "closeIdle": { "message": "Свернуть неактивные", "description": "Кнопка закрытия неактивных вкладок." },
+  "memory": { "message": "Память", "description": "Заголовок раздела сохранённых URL." },
+  "searchPlaceholder": { "message": "Поиск по заголовкам и URL", "description": "Подсказка в поле поиска." },
+  "restore": { "message": "Открыть", "description": "Кнопка повторного открытия URL." },
+  "forget": { "message": "Удалить", "description": "Кнопка удаления записи." },
+  "emptyMemory": { "message": "Закрытые страницы хранятся здесь, только на этом компьютере.", "description": "Пустое состояние." },
+  "noMatches": { "message": "Нет сохранённых страниц по этому запросу.", "description": "Нет совпадений." },
+  "autoClose": { "message": "Автоматически закрывать неактивные вкладки", "description": "Настройка." },
+  "autoSort": { "message": "Автоматически сортировать связанные вкладки", "description": "Настройка." },
+  "sectionClose": { "message": "Закрытие", "description": "Раздел настроек." },
+  "sectionSort": { "message": "Сортировка", "description": "Раздел настроек." },
+  "sectionMemory": { "message": "Память", "description": "Раздел настроек." },
+  "inactiveHours": { "message": "Неактивна через (часов)", "description": "Настройка." },
+  "inactiveHoursHint": {
+    "message": "Отсчёт идёт с момента последнего открытия вкладки. Вкладки, уже открытые при установке, отсчитываются со времени установки.",
+    "description": "Пояснение таймера."
+  },
+  "minOpenTabs": { "message": "Всегда оставлять минимум вкладок", "description": "Настройка." },
+  "maxClosePerSweep": { "message": "Закрывать за один проход не более", "description": "Настройка." },
+  "groupByDomain": { "message": "Группировать сервис вместе с его test и testsite хостами", "description": "Настройка." },
+  "archiveEnabled": { "message": "Запоминать закрытые URL", "description": "Настройка." },
+  "archiveLimit": { "message": "Сколько записей хранить", "description": "Настройка." },
+  "whitelist": { "message": "Никогда не закрывать эти сайты", "description": "Настройка." },
+  "whitelistHint": {
+    "message": "По одному домену в строке. example.com также защищает поддомены; docs.example.com — только этот сайт.",
+    "description": "Подсказка белого списка."
+  },
+  "clearArchive": { "message": "Очистить память", "description": "Кнопка очистки всех записей." },
+  "clearConfirm": {
+    "message": "Удалить все URL, сохранённые TabPerch? История Chrome останется без изменений.",
+    "description": "Подтверждение очистки."
+  },
+  "saved": { "message": "Сохранено", "description": "Статус после сохранения." },
+  "saveFailed": { "message": "Не удалось сохранить. Попробуйте снова.", "description": "Ошибка сохранения." },
+  "actionFailed": { "message": "Не удалось выполнить. Попробуйте снова.", "description": "Ошибка действия." },
+  "keptOpen": {
+    "message": "Ещё $REST$ неактивных вкладок пока оставлены. За проход закрывается до $MAX$, и минимум $MIN$ остаются открытыми.",
+    "description": "Пояснение лимита.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "Свёрнуто вкладок: $COUNT$. Их можно снова открыть ниже.",
+    "description": "Уведомление после автозакрытия.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "Свёрнута 1 вкладка. Её можно снова открыть ниже.",
+    "description": "Уведомление после закрытия 1 вкладки."
+  },
+  "lastSweep": {
+    "message": "Проверка $WHEN$ · свёрнуто: $COUNT$",
+    "description": "Результат прошлой проверки.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "только что", "description": "Относительное время." },
+  "minuteAgo": { "message": "1 минуту назад", "description": "Относительное время." },
+  "minutesAgo": {
+    "message": "$COUNT$ мин. назад",
+    "description": "Относительное время.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "1 час назад", "description": "Относительное время." },
+  "hoursAgo": {
+    "message": "$COUNT$ ч. назад",
+    "description": "Относительное время.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "1 день назад", "description": "Относительное время." },
+  "daysAgo": {
+    "message": "$COUNT$ дн. назад",
+    "description": "Относительное время.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "Предпросмотр интерфейса. TabPerch будет управлять вкладками после загрузки в Chrome.",
+    "description": "Баннер вне Chrome."
+  },
+  "reasonAuto": { "message": "авто", "description": "Причина." },
+  "reasonManual": { "message": "вручную", "description": "Причина." },
+  "moreResults": {
+    "message": "Ещё $COUNT$. Уточните запрос, чтобы увидеть их.",
+    "description": "Список сокращён.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "Окно сгруппировано по сайтам.", "description": "Подтверждение сортировки." },
+  "closedFlash": {
+    "message": "Свёрнуто вкладок: $COUNT$. URL сохранены в памяти.",
+    "description": "Подтверждение закрытия.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "Свёрнута 1 вкладка. URL сохранён в памяти.",
+    "description": "Подтверждение закрытия 1 вкладки."
+  },
+  "restoredFlash": { "message": "Открыто в новой вкладке.", "description": "Подтверждение открытия." },
+  "restoreBatch": { "message": "Открыть все", "description": "Кнопка восстановления пакета." },
+  "restoredBatchFlash": {
+    "message": "Восстановлено вкладок: $COUNT$.",
+    "description": "Подтверждение восстановления пакета.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "Все", "description": "Фильтр все." },
+  "filterAuto": { "message": "Авто", "description": "Фильтр авто." },
+  "willPerch": {
+    "message": "К сворачиванию: $LIST$",
+    "description": "Предпросмотр неактивных вкладок.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "Настройки", "description": "Ссылка на настройки." },
+  "versionLabel": {
+    "message": "Версия $VERSION$",
+    "description": "Версия.",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "URL хранятся только в этом браузере. У TabPerch нет аккаунтов, данные никуда не отправляются.",
+    "description": "Описание в настройках."
+  },
+  "idleNone": { "message": "Сейчас нет неактивных вкладок для сворачивания.", "description": "Нет неактивных вкладок." }
+}

@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "TabPerch",
+    "description": "Nome da extensão."
+  },
+  "extDescription": {
+    "message": "Feche abas inativas, agrupe abas do mesmo site e lembre URLs neste computador.",
+    "description": "Descrição da extensão."
+  },
+  "openSummary": {
+    "message": "$COUNT$ abas abertas · $IDLE$ podem ser guardadas",
+    "description": "Resumo quando há abas inativas.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "idle": { "content": "$2" }
+    }
+  },
+  "openSummaryQuiet": {
+    "message": "$COUNT$ abas abertas · nada para guardar",
+    "description": "Resumo quando não há abas inativas.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "sortWindow": { "message": "Organizar janela", "description": "Botão para agrupar a janela atual." },
+  "closeIdle": { "message": "Guardar abas inativas", "description": "Botão para fechar abas inativas." },
+  "memory": { "message": "Memória", "description": "Título da seção de URLs salvas." },
+  "searchPlaceholder": { "message": "Buscar títulos ou URLs", "description": "Placeholder da busca." },
+  "restore": { "message": "Reabrir", "description": "Botão para reabrir uma URL." },
+  "forget": { "message": "Esquecer", "description": "Botão para remover uma URL." },
+  "emptyMemory": { "message": "As páginas fechadas ficam aqui, somente neste computador.", "description": "Estado vazio." },
+  "noMatches": { "message": "Nenhuma página salva corresponde à busca.", "description": "Sem resultados." },
+  "autoClose": { "message": "Fechar abas inativas automaticamente", "description": "Rótulo de configuração." },
+  "autoSort": { "message": "Organizar abas relacionadas automaticamente", "description": "Rótulo de configuração." },
+  "sectionClose": { "message": "Fechamento", "description": "Seção de configurações." },
+  "sectionSort": { "message": "Organização", "description": "Seção de configurações." },
+  "sectionMemory": { "message": "Memória", "description": "Seção de configurações." },
+  "inactiveHours": { "message": "Inativa após (horas)", "description": "Rótulo de configuração." },
+  "inactiveHoursHint": {
+    "message": "O tempo conta a partir do último acesso à aba. Abas já abertas na instalação começam a contar a partir desse momento.",
+    "description": "Explicação do tempo de inatividade."
+  },
+  "minOpenTabs": { "message": "Manter sempre pelo menos este número de abas", "description": "Rótulo de configuração." },
+  "maxClosePerSweep": { "message": "Fechar no máximo a cada verificação", "description": "Rótulo de configuração." },
+  "groupByDomain": { "message": "Agrupar um serviço com seus hosts test e testsite", "description": "Rótulo de configuração." },
+  "archiveEnabled": { "message": "Lembrar URLs fechadas", "description": "Rótulo de configuração." },
+  "archiveLimit": { "message": "Memórias a manter", "description": "Rótulo de configuração." },
+  "whitelist": { "message": "Nunca fechar estes sites", "description": "Rótulo de configuração." },
+  "whitelistHint": {
+    "message": "Um domínio por linha. example.com também mantém seus subdomínios; docs.example.com mantém apenas esse site.",
+    "description": "Ajuda da lista de permissões."
+  },
+  "clearArchive": { "message": "Limpar memória", "description": "Botão para limpar todas as URLs." },
+  "clearConfirm": {
+    "message": "Limpar todas as URLs lembradas pelo TabPerch? O histórico do Chrome será mantido.",
+    "description": "Confirmação antes de limpar."
+  },
+  "saved": { "message": "Salvo", "description": "Status após salvar." },
+  "saveFailed": { "message": "Não foi possível salvar. Tente novamente.", "description": "Erro ao salvar." },
+  "actionFailed": { "message": "Não funcionou. Tente novamente.", "description": "Erro na ação." },
+  "keptOpen": {
+    "message": "Mais $REST$ abas inativas permanecem abertas por enquanto. Cada verificação fecha no máximo $MAX$ e mantém pelo menos $MIN$ abas.",
+    "description": "Explica o limite por verificação.",
+    "placeholders": {
+      "rest": { "content": "$1" },
+      "max": { "content": "$2" },
+      "min": { "content": "$3" }
+    }
+  },
+  "pendingNotice": {
+    "message": "$COUNT$ abas foram guardadas. Você pode reabri-las abaixo.",
+    "description": "Aviso após fechamento automático.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "pendingNoticeOne": {
+    "message": "1 aba foi guardada. Você pode reabri-la abaixo.",
+    "description": "Aviso após fechar uma aba."
+  },
+  "lastSweep": {
+    "message": "Última verificação $WHEN$ · $COUNT$ guardadas",
+    "description": "Resultado da verificação anterior.",
+    "placeholders": {
+      "when": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "justNow": { "message": "agora mesmo", "description": "Tempo relativo." },
+  "minuteAgo": { "message": "há 1 minuto", "description": "Tempo relativo." },
+  "minutesAgo": {
+    "message": "há $COUNT$ minutos",
+    "description": "Tempo relativo.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "hourAgo": { "message": "há 1 hora", "description": "Tempo relativo." },
+  "hoursAgo": {
+    "message": "há $COUNT$ horas",
+    "description": "Tempo relativo.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "dayAgo": { "message": "há 1 dia", "description": "Tempo relativo." },
+  "daysAgo": {
+    "message": "há $COUNT$ dias",
+    "description": "Tempo relativo.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "previewBanner": {
+    "message": "Prévia da interface. O TabPerch gerenciará abas reais quando carregado no Chrome.",
+    "description": "Aviso fora do Chrome."
+  },
+  "reasonAuto": { "message": "guardada", "description": "Motivo." },
+  "reasonManual": { "message": "fechada", "description": "Motivo." },
+  "moreResults": {
+    "message": "Mais $COUNT$. Refine a busca para vê-las.",
+    "description": "Lista truncada.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "sortedFlash": { "message": "Esta janela foi agrupada por site.", "description": "Confirmação ao organizar." },
+  "closedFlash": {
+    "message": "$COUNT$ abas guardadas. As URLs estão na memória.",
+    "description": "Confirmação ao guardar abas.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "closedFlashOne": {
+    "message": "1 aba guardada. A URL está na memória.",
+    "description": "Confirmação ao guardar uma aba."
+  },
+  "restoredFlash": { "message": "Aberta em uma nova aba.", "description": "Confirmação ao reabrir." },
+  "restoreBatch": { "message": "Reabrir todas", "description": "Botão para reabrir o último lote." },
+  "restoredBatchFlash": {
+    "message": "$COUNT$ abas reabertas.",
+    "description": "Confirmação ao reabrir lote.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "filterAll": { "message": "Todas", "description": "Filtro todas." },
+  "filterAuto": { "message": "Guardadas", "description": "Filtro automáticas." },
+  "willPerch": {
+    "message": "A guardar: $LIST$",
+    "description": "Prévia de abas inativas.",
+    "placeholders": { "list": { "content": "$1" } }
+  },
+  "options": { "message": "Configurações", "description": "Link para configurações." },
+  "versionLabel": {
+    "message": "Versão $VERSION$",
+    "description": "Rótulo de versão.",
+    "placeholders": { "version": { "content": "$1" } }
+  },
+  "intro": {
+    "message": "As URLs ficam apenas neste navegador. O TabPerch não tem conta e não envia dados para lugar nenhum.",
+    "description": "Introdução nas configurações."
+  },
+  "idleNone": { "message": "Nada para guardar agora.", "description": "Sem abas inativas." }
+}

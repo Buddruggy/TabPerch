@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TabPerch</title>
+    <link rel="stylesheet" href="../ui/base.css" />
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <p id="preview" class="preview" data-i18n="previewBanner" hidden></p>
+    <header class="mast">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32">
+          <rect x="1.2" y="1.2" width="29.6" height="29.6" rx="7.2" fill="#23443a" />
+          <path d="M6.2 18.8 L11.4 15.2 L15.2 10.2 L18.2 7.2 L21.6 7.0 L23.8 9.2 L27.4 10.3 L23.9 12.1 L23.6 15.6 L21.2 19.2 L17.2 20.6 L13.2 19.4 L9.4 20.6 Z" fill="#faf4e8" />
+          <path d="M13.2 15.4 L17.8 11.4 L20.4 13.8 L17.4 17.6 L12.6 17.8 Z" fill="#e5ae86" opacity="0.55" />
+          <circle cx="21.3" cy="10.1" r="0.9" fill="#172f28" />
+          <line x1="6.6" y1="24.2" x2="18.8" y2="24.2" stroke="#e27034" stroke-width="3.7" stroke-linecap="round" />
+          <line x1="22.4" y1="24.2" x2="25.6" y2="24.2" stroke="#98c8b3" stroke-width="3.7" stroke-linecap="round" />
+        </svg>
+      </span>
+      <div>
+        <h1>TabPerch</h1>
+        <p data-i18n="options"></p>
+      </div>
+    </header>
+    <form id="settings" class="sheet">
+      <p id="intro" class="intro" data-i18n="intro"></p>
+      <fieldset>
+        <legend data-i18n="sectionClose"></legend>
+        <label class="check">
+          <input name="autoCloseEnabled" type="checkbox" />
+          <span data-i18n="autoClose"></span>
+        </label>
+        <label class="field">
+          <span data-i18n="inactiveHours"></span>
+          <input name="inactiveHours" type="number" min="1" max="720" step="1" />
+        </label>
+        <p class="help" data-i18n="inactiveHoursHint"></p>
+        <label class="field">
+          <span data-i18n="minOpenTabs"></span>
+          <input name="minOpenTabs" type="number" min="0" max="200" step="1" />
+        </label>
+        <label class="field">
+          <span data-i18n="maxClosePerSweep"></span>
+          <input name="maxClosePerSweep" type="number" min="1" max="25" step="1" />
+        </label>
+        <label class="field">
+          <span data-i18n="whitelist"></span>
+          <textarea name="whitelist" spellcheck="false" autocomplete="off"></textarea>
+        </label>
+        <p class="help" data-i18n="whitelistHint"></p>
+      </fieldset>
+      <fieldset>
+        <legend data-i18n="sectionSort"></legend>
+        <label class="check">
+          <input name="autoSortEnabled" type="checkbox" />
+          <span data-i18n="autoSort"></span>
+        </label>
+        <label class="check">
+          <input name="groupByDomain" type="checkbox" />
+          <span data-i18n="groupByDomain"></span>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend data-i18n="sectionMemory"></legend>
+        <label class="check">
+          <input name="archiveEnabled" type="checkbox" />
+          <span data-i18n="archiveEnabled"></span>
+        </label>
+        <label class="field">
+          <span data-i18n="archiveLimit"></span>
+          <input name="archiveLimit" type="number" min="50" max="1000" step="10" />
+        </label>
+        <div class="row-actions">
+          <button id="clear" class="button danger" type="button" data-i18n="clearArchive"></button>
+          <p id="status" class="status" role="status"></p>
+        </div>
+      </fieldset>
+    </form>
+    <p id="version" class="version"></p>
+    <p id="error" class="error" role="alert" hidden></p>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>
